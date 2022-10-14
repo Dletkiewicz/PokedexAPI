@@ -50,8 +50,6 @@ public class HelloController {
 
     }
 
-    public void checkPokemon()
-
     public void addNewPokemon(ActionEvent event) {
 
         if (tfID.getText().isEmpty() || tfName.getText().isEmpty()) {

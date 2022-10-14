@@ -3,15 +3,27 @@ package com.example.javafxapi;
 public class DBTable {
 
 
-    String id, title;
-    int rating;
+    String id, name;
 
-    public DBTable(String id, String title, int rating) {
+    public DBTable(String id, String name) {
         this.id = id;
-        this.title = title;
-        this.rating = rating;
+        this.name = name;
     }
 
+    public String getId() {
+        return id;
+    }
 
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
 
